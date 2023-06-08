@@ -15,15 +15,15 @@ int main(){
     }
     else{
     if(Income >= 250000 && Income < 500000){
-         Tax = (5/100)*Income;
+         Tax = (5.0/100.0)*Income;
         printf("Rupees %f you need to pay for your income tax as per enterd income.",Tax);
     }
         else if(Income >= 500000 && Income < 1000000){
-             Tax = (20/100)*Income;
+             Tax = (20.0/100.0)*Income;
             printf("Rupees %f you need to pay for your income tax as per enterd income.",Tax);
         }
         else if(Income > 1000000){
-             Tax = (30/100)*Income;
+             Tax = (30.0/100.0)*Income;
             printf("Rupees %f you need to pay for your income tax as per enterd income.",Tax);
         }
     }
